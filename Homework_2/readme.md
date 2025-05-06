@@ -1,10 +1,10 @@
 # Usage
-First install the package from the project root directory:
-"pip install -e ."
-
-Then call the model in the cli:
-pii-bert "Some Text in double quotes"
-pii-bert "My name is John Doe and my email is john@example.com"
+First install the package from the project root directory: <br/>
+"pip install -e ." <br/>
+ 
+Then call the model in the cli: <br/>
+pii-bert "Some Text in double quotes" <br/>
+pii-bert "My name is John Doe and my email is john@example.com" <br/>
 
 # Experiment Setup
 Model: Distilbert Base Cased (https://huggingface.co/distilbert/distilbert-base-cased) <br/>
