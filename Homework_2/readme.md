@@ -8,8 +8,9 @@ pii-bert "My name is John Doe and my email is john@example.com"
 
 # Experiment Setup
 Model: Distilbert Base Cased (https://huggingface.co/distilbert/distilbert-base-cased) <br/>
-Trained on Nvidia P100 using the AI4/Privacy dataset (https://huggingface.co/datasets/ai4privacy/pii-masking-300k) <br/>
-Max. Length 128 <br/>
+Dataset: AI4/Privacy dataset, only the english sentences (https://huggingface.co/datasets/ai4privacy/pii-masking-300k) <br/>
+GPU: Nvidia P100 <br/>
+Max. Length: 128 <br/>
 Epochs: 100 <br/>
 Batch Size: 320 <br/>
 Learning Rate: 1e-04 <br/>
