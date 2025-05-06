@@ -7,14 +7,15 @@ pii-bert "Some Text in double quotes"
 pii-bert "My name is John Doe and my email is john@example.com"
 
 # Experiment Setup
-Model: Distilbert Base Cased (https://huggingface.co/distilbert/distilbert-base-cased)
-Trained on Nvidia P100 using the AI4/Privacy dataset (https://huggingface.co/datasets/ai4privacy/pii-masking-300k)
-Max. Length 128
-Epochs: (Up to) 100
-Batch Size: 320
-Learning Rate: 1e-04
-MAX_GRAD_NORM = 10 (Gradient clipping)
+Model: Distilbert Base Cased (https://huggingface.co/distilbert/distilbert-base-cased) <br/>
+Trained on Nvidia P100 using the AI4/Privacy dataset (https://huggingface.co/datasets/ai4privacy/pii-masking-300k) <br/>
+Max. Length 128 <br/>
+Epochs: 100 <br/>
+Batch Size: 320 <br/>
+Learning Rate: 1e-04 <br/>
+MAX_GRAD_NORM = 10 (Gradient clipping) <br/>
 
+# Evaluation
 | Epoch | Val. Loss | Token-Acc | Micro F1 | Macro F1 | Weighted F1 |
 |------:|---------:|----------:|---------:|---------:|------------:|
 | 10   | 0.1085 | 0.9742 | 0.76 | 0.70 | 0.76 |
