@@ -34,4 +34,4 @@ MAX_GRAD_NORM = 10 (Gradient clipping) <br/>
 You can download the model here and insert it in the same folder as the model.py: <br/>
 https://ruhr-uni-bochum.sciebo.de/s/KPgvSHLyItgD6ZT
 
-We decided to fine-tune the model only on 30 epochs due to overfitting.
+We decided to fine-tune the model again but on 30 epochs due to overfitting.
