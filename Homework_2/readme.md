@@ -7,6 +7,7 @@ pii-bert "Some Text in double quotes"
 pii-bert "My name is John Doe and my email is john@example.com"
 
 # Experiment Setup
+Model: Distilbert Base Cased (https://huggingface.co/distilbert/distilbert-base-cased)
 Trained on Nvidia P100 using the AI4/Privacy dataset (https://huggingface.co/datasets/ai4privacy/pii-masking-300k)
 Max. Length 128
 Epochs: (Up to) 100
