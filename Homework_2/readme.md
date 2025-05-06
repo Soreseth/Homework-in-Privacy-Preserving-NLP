@@ -31,5 +31,5 @@ MAX_GRAD_NORM = 10 (Gradient clipping) <br/>
 | 100  | 0.2173 | 0.9771 | 0.78 | 0.73 | 0.78 |
 
 # Model 
-You can download the model here and insert into the same folder as the model.py: <br/>
+You can download the model here and insert it in the same folder as the model.py: <br/>
 https://ruhr-uni-bochum.sciebo.de/s/KPgvSHLyItgD6ZT
