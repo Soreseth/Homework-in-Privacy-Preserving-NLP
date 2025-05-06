@@ -29,3 +29,7 @@ MAX_GRAD_NORM = 10 (Gradient clipping) <br/>
 | 80   | 0.2056 | 0.9758 | 0.77 | 0.72 | 0.77 |
 | 90   | 0.2265 | 0.9766 | 0.77 | 0.73 | 0.78 |
 | 100  | 0.2173 | 0.9771 | 0.78 | 0.73 | 0.78 |
+
+# Model 
+You can download the model here for local usage: <br/>
+https://ruhr-uni-bochum.sciebo.de/s/KPgvSHLyItgD6ZT
